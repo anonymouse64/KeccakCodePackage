@@ -149,7 +149,7 @@ http://creativecommons.org/publicdomain/zero/1.0/
     <!-- Implementations selected for ARMv7M -->
     <fragment name="ARMv7M" inherits="optimized200ARMv7M optimized400ARMv7M optimized800ARMv7Mu2 inplace1600ARMv7M serial-fallbacks Ket-ARMv7M"/>
     <!-- Implementations selected for ARMv7A -->
-    <fragment name="ARMv7A" inherits="reference200 reference400 optimized800ARMv7Au2 optimized1600ARMv7A 800times2on1 800times4ARMv7A 800times8on1 1600times2ARMV7A 1600times4on2 1600times8on2 Ket-optimizedLE"/>
+    <fragment name="ARMv7A" inherits="reference200 reference400 optimized800ARMv7Au2 optimized1600ARMv7A 800times2on1 800times4on1 800times8on1 1600times2on1 1600times4on1 1600times8on1 Ket-optimizedLE"/>
     <!-- Implementations selected for ARMv8A -->
     <fragment name="ARMv8A" inherits="reference200 reference400 optimized800ARMv8A optimized1600ARMv8A serial-fallbacks Ket-optimizedLE"/>
 
